@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    color: #ffffff;
+    text-shadow: 0 0 1px #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    margin: 115px 0 0 52px;
+    width: 354px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main-green {
+    color: #4ADF86;
+}
+
+h3 {
+    margin: 10px 0 0 52px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#generate-btn {
+    background-color:  #10b981;
+    text-shadow: 0 0 1px #000000;
+    padding: 9px 17px 9px 15px;
+    color: #ffffff;
+    margin: 51px 0 0 52px;
+    font-size: 16px;    
+    border-radius: 6px;
+    border: none
+}
+
+#container {
+    border-top: 1px solid #2F3E53;
+    padding-top: 35px;
+    margin: 35px 52px;
+    width: 446px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-frame {
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    background-color: #273549;
+    color: #55F991;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.left-password, .right-password {
+    font-size: 16px;
+    font-weight: 500px;
+
+}
+
+/* nefunguje zarovnání hesla na střed */
